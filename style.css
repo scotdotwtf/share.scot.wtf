@@ -1,0 +1,24 @@
+* {
+    /* varaibles */
+    --accent: #002FA7dd;
+    --text: #000000dd;
+    --background: hsla(0, 0%, 100%, 0.867);
+
+    /* other */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--background);
+
+    margin: 4px;
+}
+
+a {
+    color: var(--accent);
+}
